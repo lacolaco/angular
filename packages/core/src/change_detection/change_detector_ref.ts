@@ -29,10 +29,10 @@ import {ViewRef as R3_ViewRef} from '../render3/view_ref';
  * The following examples demonstrate how to modify default change-detection behavior
  * to perform explicit detection when needed.
  *
- * ### Use `markForCheck()` with `CheckOnce` strategy
+ * ### Use `markForCheck()` with `OnPush` strategy
  *
  * The following example sets the `OnPush` change-detection strategy for a component
- * (`CheckOnce`, rather than the default `CheckAlways`), then forces a second check
+ * (`OnPush`, rather than the `Default`), then forces a second check
  * after an interval. See [live demo](https://plnkr.co/edit/GC512b?p=preview).
  *
  * <code-example path="core/ts/change_detect/change-detection.ts"
